@@ -1,0 +1,21 @@
+npm i express
+npm i mongoose
+npm i nodemon
+npm i dotenv
+npm i cloudinary
+
+
+API 
+
+http://localhost:4000/api/v1/upload/localFileUpload
+
+Body-> Form data
+kay "file" value -> file  
+
+2. method: POST
+URL: http://localhost:4000/api/v1/upload/imageUpload
+Body-> Form data
+key: imageFile -> value:(select file)
+key: name -> Shubham Lingayat
+key: tags -> Shubhamzzz
+key: email -> shubham.lingayat062@gmail.com
